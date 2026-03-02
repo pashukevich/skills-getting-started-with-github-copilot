@@ -89,9 +89,21 @@ section h3 {
 }
 
 .participants-list {
-  list-style-type: disc;
-  margin-left: 20px;
+  /* remove default bullets and spacing for a cleaner look */
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
   margin-bottom: 0;
+}
+
+/* little red 'x' used to delete a participant */
+.delete-icon {
+  margin-left: 8px;
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  vertical-align: middle;
 }
 
 .participant-avatar {
